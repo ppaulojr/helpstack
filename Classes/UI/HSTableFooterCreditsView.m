@@ -36,7 +36,7 @@
         [poweredlabel setAutoresizingMask:UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight];
         [poweredlabel setTextColor:[UIColor colorWithRed:(197.0/255.0) green:(197.0/255.0) blue:(197.0/255.0) alpha:1.0]];
         
-        NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"Powered by HelpStack"];
+        NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:@"Responses May Not Be Real-Time"];
         [attributedString beginEditing];
         [attributedString addAttribute:NSFontAttributeName
                                  value:[UIFont boldSystemFontOfSize:12]

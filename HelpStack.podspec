@@ -1,15 +1,15 @@
 
 Pod::Spec.new do |s|
   s.name             = "HelpStack"
-  s.version          = "1.1.2"
+  s.version          = "1.1.3"
   s.summary          = "In-app customer support framework"
   s.description      = 'See helpstack.io for more details'
   s.homepage         = "https://github.com/happyfoxinc/helpstack"
   s.social_media_url = "https://twitter.com/helpstacksdk"
   s.license          = 'MIT'
   s.author           = { "HappyFox" => "ios@happyfox.com" }
-  s.platform         = :ios, '7.0'
-  s.source           = { :git => "https://github.com/ppaulojr/helpstack.git", :tag => "1.1.2", :submodules => true }
+  s.platform         = :ios, '9.0'
+  s.source           = { :git => "https://github.com/ppaulojr/helpstack.git", :tag => "1.1.3", :submodules => true }
   s.resources        = ['Resources/*.png','Resources/*.storyboard']
   s.dependency         'AFNetworking', '~> 3.0'
   s.frameworks       = 'UIKit', 'CoreGraphics'
